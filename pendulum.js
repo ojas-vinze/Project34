@@ -22,7 +22,7 @@ class Pendulum{
         rotate(angle);
         noStroke()
         fill(this.color,this.color,this.color);
-        ellipse(pos.x,pos.y,40,40);
+        ellipse(0,0,40,40);
         pop()
     }
 }
